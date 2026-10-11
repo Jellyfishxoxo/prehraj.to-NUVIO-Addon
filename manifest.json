@@ -1,0 +1,21 @@
+{
+  "name": "Přehraj.to Premium for Nuvio",
+  "version": "0.1.1",
+  "description": "Native Nuvio provider for a user's own Přehraj.to Premium account.",
+  "author": "Local user package",
+  "scrapers": [
+    {
+      "id": "prehrajto-premium-cz",
+      "name": "Přehraj.to Premium",
+      "description": "Searches Přehraj.to and resolves Premium download links on-device.",
+      "version": "0.1.1",
+      "filename": "providers/prehrajto.js",
+      "supportedTypes": ["movie", "tv"],
+      "enabled": true,
+      "hasSettings": true,
+      "contentLanguage": ["cs", "sk"],
+      "formats": ["mp4", "mkv"],
+      "supportsExternalPlayer": true
+    }
+  ]
+}
